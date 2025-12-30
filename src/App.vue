@@ -1,7 +1,8 @@
 <script setup>
 
-</script>
+const msg = 'Welcome to Your Vue.js App'
 
+</script>
 <template>
   <div>
     <div
