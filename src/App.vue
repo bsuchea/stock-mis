@@ -1,20 +1,25 @@
 <script setup>
-
+// Script setup section remains empty as per user's original snippet
 </script>
 
 <template>
-  <div>
-    <div
-      class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 h-[calc(100vh-2rem)] max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
+  <!-- Main container for the entire page layout -->
+  <div class="flex h-screen bg-gray-100">
+
+    <!-- Fixed Sidebar -->
+    <aside
+      class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 h-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
       <div class="mb-2 p-4">
         <h5 class="block antialiased tracking-normal font-sans text-xl font-semibold leading-snug text-gray-900">
-          Material
-          Tailwind</h5>
+          Material Tailwind
+        </h5>
       </div>
       <nav class="flex flex-col gap-1 min-w-60 p-2 font-sans text-base font-normal text-gray-700">
+        <!-- Navigation Links -->
         <div role="button" tabindex="0"
           class="flex items-center w-full p-3 rounded-lg text-start leading-tight transition-all hover:bg-blue-50 hover:bg-opacity-80 focus:bg-blue-50 focus:bg-opacity-80 active:bg-gray-50 active:bg-opacity-80 hover:text-blue-900 focus:text-blue-900 active:text-blue-900 outline-none">
           <div class="grid place-items-center mr-4">
+            <!-- SVG for Blocks -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
               class="h-5 w-5">
               <path fill-rule="evenodd"
@@ -27,6 +32,7 @@
         <div role="button" tabindex="0"
           class="flex items-center w-full p-3 rounded-lg text-start leading-tight transition-all hover:bg-blue-50 hover:bg-opacity-80 focus:bg-blue-50 focus:bg-opacity-80 active:bg-blue-50 active:bg-opacity-80 hover:text-blue-900 focus:text-blue-900 active:text-blue-900 outline-none">
           <div class="grid place-items-center mr-4">
+            <!-- SVG for Books -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
               class="h-5 w-5">
               <path fill-rule="evenodd"
@@ -38,6 +44,7 @@
         <div role="button" tabindex="0"
           class="flex items-center w-full p-3 rounded-lg text-start leading-tight transition-all hover:bg-blue-50 hover:bg-opacity-80 focus:bg-blue-50 focus:bg-opacity-80 active:bg-blue-50 active:bg-opacity-80 hover:text-blue-900 focus:text-blue-900 active:text-blue-900 outline-none">
           <div class="grid place-items-center mr-4">
+            <!-- SVG for Example Pages -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
               class="h-5 w-5">
               <path fill-rule="evenodd"
@@ -55,6 +62,7 @@
         <div role="button" tabindex="0"
           class="flex items-center w-full p-3 rounded-lg text-start leading-tight transition-all hover:bg-blue-50 hover:bg-opacity-80 focus:bg-blue-50 focus:bg-opacity-80 active:bg-blue-50 active:bg-opacity-80 hover:text-blue-900 focus:text-blue-900 active:text-blue-900 outline-none">
           <div class="grid place-items-center mr-4">
+            <!-- SVG for Profile -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
               class="h-5 w-5">
               <path fill-rule="evenodd"
@@ -66,6 +74,7 @@
         <div role="button" tabindex="0"
           class="flex items-center w-full p-3 rounded-lg text-start leading-tight transition-all hover:bg-blue-50 hover:bg-opacity-80 focus:bg-blue-50 focus:bg-opacity-80 active:bg-blue-50 active:bg-opacity-80 hover:text-blue-900 focus:text-blue-900 active:text-blue-900 outline-none">
           <div class="grid place-items-center mr-4">
+            <!-- SVG for Settings -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
               class="h-5 w-5">
               <path fill-rule="evenodd"
@@ -77,6 +86,7 @@
         <div role="button" tabindex="0"
           class="flex items-center w-full p-3 rounded-lg text-start leading-tight transition-all hover:bg-blue-50 hover:bg-opacity-80 focus:bg-blue-50 focus:bg-opacity-80 active:bg-blue-50 active:bg-opacity-80 hover:text-blue-900 focus:text-blue-900 active:text-blue-900 outline-none">
           <div class="grid place-items-center mr-4">
+            <!-- SVG for Log Out -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
               class="h-5 w-5">
               <path fill-rule="evenodd"
@@ -86,118 +96,57 @@
           </div>Log Out
         </div>
       </nav>
+      <!-- Bottom content from the image, placed at the bottom using flex utilities -->
+      <div class="mt-auto p-4">
+        <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit">Overview Addresses</h6>
+        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">Lorem Lorem Ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">Lorem Ipsum Adipiscing elit</p>
+        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">sit amet elit</p>
+        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">consectetur adipiscing elit</p>
+        
+        <div class="flex justify-between items-center mt-4">
+          <div class="bg-gray-200 p-2 rounded w-1/2 mr-2">Search</div>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-1/2">New facility</button>
+        </div>
+        <p class="block antialiased font-sans text-3xl font-bold mt-4 text-center">21238</p>
+      </div>
 
-      <main class="py-6 px-12 space-y-12 bg-gray-100 min-h-screen">
-        <section class="grid grid-cols-4 bg-white divide-x w-full rounded-lg">
-          <div class="flex px-8 py-5 cursor-pointer text-gray-900 items-center hover:bg-gray-100 ">
-            <svg class="text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="48px"
-              fill="#5f6368">
-              <path
-                d="M212-241v-339h60v339h-60Zm242 0v-339h60v339h-60ZM80-121v-60h800v60H80Zm608-120v-339h60v339h-60ZM80-640v-53l400-228 400 228v53H80Zm134-60h532-532Zm0 0h532L480-852 214-700Z" />
-            </svg>
-            <div class="ml-3">
-              <div class="font-medium leading-6 text-gray-600">Overview</div>
-              <div class="mt-0.5 text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            </div>
-          </div>
-          <div class="flex px-8 py-5 cursor-pointer text-gray-900 items-center hover:bg-gray-100">
-            <svg class="text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="48px"
-              fill="#5f6368">
-              <path
-                d="M480.09-490q28.91 0 49.41-20.59 20.5-20.59 20.5-49.5t-20.59-49.41q-20.59-20.5-49.5-20.5t-49.41 20.59q-20.5 20.59-20.5 49.5t20.59 49.41q20.59 20.5 49.5 20.5ZM480-159q133-121 196.5-219.5T740-552q0-117.79-75.29-192.9Q589.42-820 480-820t-184.71 75.1Q220-669.79 220-552q0 75 65 173.5T480-159Zm0 79Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
-            </svg>
-            <div class="ml-3">
-              <div class="font-medium leading-6 text-gray-600">Addresses</div>
-              <div class="mt-0.5 text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            </div>
-          </div>
-          <div class="flex px-8 py-5 cursor-pointer text-gray-900 items-center hover:bg-gray-100">
-            <svg class="text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="48px"
-              fill="#5f6368">
-              <path
-                d="M562-524h268v-186H562v186Zm135-37-105-79v-40l104 79 104-79v40l-103 79ZM60-120q-24 0-42-18T0-180v-600q0-24 18-42t42-18h840q24 0 42 18t18 42v600q0 24-18 42t-42 18H60Zm531-60h309v-600H60v600h7q44-69 112.5-109T329-329q81 0 149.5 40T591-180ZM329-400q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35ZM143-180h372q-35.61-42.27-84.3-65.64Q382-269 329-269t-101.5 23.5Q179-222 143-180Zm186-280q-25.5 0-42.75-17.25T269-520q0-25.5 17.25-42.75T329-580q25.5 0 42.75 17.25T389-520q0 25.5-17.25 42.75T329-460Zm151-20Z" />
-            </svg>
-            <div class="ml-3">
-              <div class="font-medium leading-6 text-gray-600">Contacts</div>
-              <div class="mt-0.5 text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            </div>
-          </div>
-          <div
-            class="flex px-8 py-5 cursor-pointer text-gray-900 items-center hover:bg-gray-100 bg-blue-50 border-b border-l-gray-100 border-b-blue-500 border-b-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="48px" fill="#4880d7">
-              <path
-                d="M212-241v-339h60v339h-60Zm242 0v-339h60v339h-60ZM80-121v-60h800v60H80Zm608-120v-339h60v339h-60ZM80-640v-53l400-228 400 228v53H80Zm134-60h532-532Zm0 0h532L480-852 214-700Z" />
-            </svg>
-            <div class="ml-3">
-              <div class="font-medium leading-6 text-blue-600">Facilities</div>
-              <div class="mt-0.5 text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            </div>
-          </div>
+    </aside>
 
+    <!-- Main Content Area (flex-1 makes it grow to fill remaining width) -->
+    <main class="flex-1 overflow-y-auto py-6 px-12 bg-gray-100">
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900">Dashboard Overview</h1>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Example Card 1 (Inferred content from image snippets) -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Facilities</h2>
+                <p class="text-gray-600">Overview of facilities data.</p>
+            </div>
+
+             <!-- Example Card 2 -->
+             <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Lorem Ipsum</h2>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet.</p>
+            </div>
+            
+            <!-- Example Card 3 -->
+             <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Consectetur</h2>
+                <p class="text-gray-600">Adipiscing elit.</p>
+            </div>
+
+             <!-- Example Card 4 -->
+             <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Analytics</h2>
+                <p class="text-gray-600">Recent data metrics.</p>
+            </div>
+            
         </section>
 
-        <!-- CONTENT GOES HERE -->
-        <div class="flex flex-col h-full w-full mx-auto  space-y-6">
-          <section class="flex flex-col mx-auto bg-white rounded-lg p-6 shadow-md space-y-6 w-full">
-            <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-              <form class="flex flex-col relative md:col-span-3">
-                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                    fill="#5f6368">
-                    <path
-                      d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
-                  </svg>
-                </div>
-                <input type="search" id="default-search"
-                  class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-100 rounded bg-gray-50"
-                  placeholder="
-Search here..." required />
-                <button type="submit"
-                  class="text-blue-500 absolute end-2.5 top-1.5 border border-blue-500 hover:bg-blue-50 focus:outline-none font-medium rounded text-base px-4 py-2">Search</button>
-              </form>
-              <div class="col-span-1 flex items-center">
-                <button
-                  class="relative  px-4 py-2 rounded w-80 items-center justify-center bg-blue-500 text-white font-medium hover:bg-primary-900">
-                  New facility
-                </button>
-              </div>
-            </div>
-
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full min-w-0">
-              <!-- In use -->
-              <div class="flex flex-col px-6 py-2 bg-white shadow rounded-lg overflow-hidden">
-                <div class="flex flex-col items-center space-y-2">
-                  <div class="text-6xl font-bold tracking-tight leading-none text-blue-500">21</div>
-                  <div class="text-lg font-medium text-blue-500">In use</div>
-                </div>
-              </div>
-              <!-- renovation -->
-              <div class="flex flex-col px-6 py-2 bg-white shadow rounded-lg overflow-hidden">
-                <div class="flex flex-col items-center space-y-2">
-                  <div class="text-6xl font-bold tracking-tight leading-none text-amber-500">17</div>
-                  <div class="text-lg font-medium text-amber-600">Under renovation</div>
-                </div>
-              </div>
-              <!-- Suspended -->
-              <div class="flex flex-col px-6 py-2 bg-white shadow rounded-lg overflow-hidden">
-                <div class="flex flex-col items-center space-y-2">
-                  <div class="text-6xl font-bold tracking-tight leading-none text-red-500">24</div>
-                  <div class="text-lg font-medium text-red-600">Suspended</div>
-                </div>
-              </div>
-              <!-- Closed -->
-              <div class="flex flex-col px-6 py-2 bg-white shadow rounded-lg overflow-hidden">
-                <div class="flex flex-col items-center space-y-2">
-                  <div class="text-6xl font-bold tracking-tight leading-none text-primary-900">38</div>
-                  <div class="text-lg font-medium text-primary-900">Closed</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </main>
-
-    </div>
+        <!-- More sections can go here -->
+    </main>
   </div>
 </template>
