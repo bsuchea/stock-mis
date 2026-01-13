@@ -96,20 +96,6 @@
           </div>Log Out
         </div>
       </nav>
-      <!-- Bottom content from the image, placed at the bottom using flex utilities -->
-      <div class="mt-auto p-4">
-        <h6 class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-inherit">Overview Addresses</h6>
-        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">Lorem Lorem Ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">Lorem Ipsum Adipiscing elit</p>
-        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">sit amet elit</p>
-        <p class="block antialiased font-sans text-sm leading-normal text-gray-700 opacity-75">consectetur adipiscing elit</p>
-        
-        <div class="flex justify-between items-center mt-4">
-          <div class="bg-gray-200 p-2 rounded w-1/2 mr-2">Search</div>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-1/2">New facility</button>
-        </div>
-        <p class="block antialiased font-sans text-3xl font-bold mt-4 text-center">21238</p>
-      </div>
 
     </aside>
 
@@ -147,6 +133,7 @@
         </section>
 
         <!-- More sections can go here -->
+
     </main>
   </div>
 </template>
